@@ -1,4 +1,4 @@
-package day_inheritance;
+package day5_inheritance;
 
 class Shape{
     private double height;
