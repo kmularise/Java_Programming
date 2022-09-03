@@ -16,9 +16,11 @@ class Child extends Parent{
 public class Test {
     public static void main(String[] args) {
 
-        Child x =  new Child();
-        x.print();
-        x.show();
+        Parent x = new Parent();
+        Child y =  new Child();
+
+        Parent a = new Child();//다형성
+        a.show();//a.print();는 안됨
     }
 
 }
